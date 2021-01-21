@@ -4,7 +4,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## About Project
 
-This is a Tutorial Project present in Angular Documentation. I developed this project by learning the basic Angular Concepts. The documentation provided by the Angular is super good and it is easy to understand the Development of Angular Project.
+This is a Tutorial Project present in Angular Documentation. I developed this project by learning the basic Angular Concepts which covers almost every basic topic in the Angular Framework, like **Interpolation**, **Data-Binding**, **Parent-to-child/child-to-parent** data transfer, **Services**, **Models** , **Routing**, **Http**, **In-App Web API** and etc.. The documentation provided by the Angular is super good and it is easy to understand the Development of Angular Project.
+
+For Detail Information about the Project visit [Tour of Heroes](https://angular.io/tutorial).
 
 ## Topics Covered
 
@@ -33,6 +35,18 @@ This is a Tutorial Project present in Angular Documentation. I developed this pr
 
 - Heroes Details
   ![](./images/hero-details.jpg)
+
+## Note:
+
+After Cloning the Project into your system, run below command in your CLI
+
+```NodeJS
+npm install
+```
+
+Because, this project is dependent on some Dependencies and those are included in node-modules folder, that folder is ignored while pushing into github because of its size. so, by running the above command it installs the necessary dependencies which are mentioned in the `package.json` file.
+
+After running the above command run the below command mentioned in **Development server**
 
 ## Development server
 
